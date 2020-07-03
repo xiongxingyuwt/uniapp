@@ -1,0 +1,28 @@
+/* 重置默认样式开始 */
+image{
+	height: auto;
+	width: auto;
+}
+/* 重置默认样式结束 */
+
+/* 字体封装开始 */
+.fc3{color: #333;}
+.fc9:{color: #999999;}
+.fcs-324{
+	font-size: 48rpx;
+	color: #999999;
+}
+.frd{color: red;}
+.rfs-56{
+	font-size: 76rpx;
+	color: #333333;
+}
+.fs40{
+	font-size: 40px;
+}
+.rfs80{
+	font-size: 80rpx;
+	color: eb544d;
+}
+
+/* 字体封装结束 */

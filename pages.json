@@ -1,0 +1,62 @@
+{
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "快宜点"
+		}
+	}    ,{
+            "path" : "pages/classfiy/classfiy",
+            "style" : {
+				"navigationBarTitleText": "分类"
+			}
+        }
+        ,{
+            "path" : "pages/goodscar/goodscar",
+            "style" : {
+				"navigationBarTitleText": "购物车"
+			}
+        }
+        ,{
+            "path" : "pages/myself/myself",
+            "style" : {
+				"navigationBarTitleText": "我的"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar":{
+		"height":"80px",
+		"borderStyle":"black",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"iconPath":"static/images/home.png",
+				"selectedIconPath":"static/images/selecthome.png",
+				"text":"首页"
+			},
+			{
+				"pagePath":"pages/classfiy/classfiy",
+				"iconPath":"static/images/fenlei.png",
+				"selectedIconPath":"static/images/selectfeile.png",
+				"text":"分类"
+			},
+			{
+				"pagePath":"pages/goodscar/goodscar",
+				"iconPath":"static/images/car.png",
+				"selectedIconPath":"static/images/selcar.png",
+				"text":"购物车"
+			},
+			{
+				"pagePath":"pages/myself/myself",
+				"iconPath":"static/images/press.png",
+				"selectedIconPath":"static/images/selectpress.png",
+				"text":"我的"
+			}
+		]
+	}
+}
