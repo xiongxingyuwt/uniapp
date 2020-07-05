@@ -29,7 +29,19 @@
         ,{
             "path" : "pages/sonpage/dfk",
             "style" : {}
-        }
+        },
+		{
+		    "path" : "pages/sonpage/dqh",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/sonpage/tkd",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/sonpage/wcd",
+		    "style" : {}
+		}
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

@@ -3,7 +3,7 @@
 		<view class="topbg-box">
 			<image class="banner" src="../../static/images/tx.png" mode="aspectFit"></image>
 			<view class="photo-box">
-				<navigator url="../sonpage/userinfo">
+				<navigator url="../sonpage/userinfo" open-type="navigate">
 					<image class="temphone" src="../../static/images/tx.png" mode="center"></image>
 				</navigator>
 			</view>
@@ -29,7 +29,7 @@
 				<navigator url=""><view class="dd-gdu fr fc9">全部订单>></view></navigator>
 			</view>
 			<view class="mdd-allinfo">
-				<navigator :key="index" :url="item.navgateurl" class="mdd-item" v-for="(item,index) in mddlist" >
+				<navigator open-type="navigate" :key="index" :url="item.navgateurl" class="mdd-item" v-for="(item,index) in mddlist" >
 					<image class="img-mdd" :src="item.iconpath" mode=""></image>
 					<view class="textdect">{{item.ntitle}}</view>
 				</navigator>
@@ -123,10 +123,12 @@
 	width: 100%;
 	top: -40px;
 }
+/* #ifdef */
+/* #endif */
 .photo-box{
 	position: absolute; 
-	bottom: 86px;
-	left: 151px;
+	bottom: 125rpx;
+	left: 315rpx;
 	width: 124rpx;
 	height: 124rpx;
 	overflow: hidden;
@@ -134,7 +136,7 @@
 }
 .userinfo{
 	position: absolute;
-	bottom: 60rpx;
+	bottom: 0;
 	left: 0;
 	width: 100%;
 	text-align: center;

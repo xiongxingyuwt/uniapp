@@ -83,8 +83,8 @@ view,image{
 }
 .photo-box{
 	position: absolute; 
-	bottom: 86px;
-	left: 151px;
+	bottom: 125rpx;
+	left: 315rpx;
 	width: 124rpx;
 	height: 124rpx;
 	overflow: hidden;
@@ -92,7 +92,7 @@ view,image{
 }
 .userinfo{
 	position: absolute;
-	bottom: 60rpx;
+	bottom: 0;
 	left: 0;
 	width: 100%;
 	text-align: center;

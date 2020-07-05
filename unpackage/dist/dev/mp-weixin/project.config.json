@@ -4,11 +4,12 @@
     "ignore": []
   },
   "setting": {
-    "urlCheck": true
+    "urlCheck": true,
+    "minified": true
   },
   "compileType": "miniprogram",
   "libVersion": "",
-  "appid": "touristappid",
+  "appid": "wx8d4437d9d44e647d",
   "projectname": "uniap2",
   "condition": {
     "search": {

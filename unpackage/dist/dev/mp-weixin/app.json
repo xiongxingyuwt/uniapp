@@ -5,7 +5,10 @@
     "pages/goodscar/goodscar",
     "pages/myself/myself",
     "pages/sonpage/userinfo",
-    "pages/sonpage/dfk"
+    "pages/sonpage/dfk",
+    "pages/sonpage/dqh",
+    "pages/sonpage/tkd",
+    "pages/sonpage/wcd"
   ],
   "subPackages": [],
   "window": {
@@ -43,6 +46,11 @@
         "text": "我的"
       }
     ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "25745"
+    }
   },
   "usingComponents": {}
 }
