@@ -1,0 +1,1 @@
+<view class="container"><movable-area class="movable-area-box"><movable-view class="move-view-box" direction="horizontal" inertia="{{true}}"><block wx:for="{{navlist}}" wx:for-item="item" wx:for-index="index" wx:key="index"><text class="movitem">{{item}}</text></block></movable-view></movable-area><view><image src="../../static/images/bqk.png" mode></image></view></view>

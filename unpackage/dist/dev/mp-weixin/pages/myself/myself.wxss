@@ -1,0 +1,101 @@
+/* 重置默认样式开始 */
+view,image{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearfix{
+	clear: both;
+	overflow: auto;
+}
+.myselfcontent{
+	background-color: #f5f5f5;
+}
+.fc9{
+	color: #999;
+}
+.fc3{
+	color: #333;
+}
+.fs30{
+	font-size: 30px;
+}
+.fs24{
+	font-size: 24rpx;
+}
+.fs28{
+	font-size: 28rpx;
+}
+.w702rpx{
+	width: 702rpx;
+	border-radius: 8px;
+	background-color: #fff;
+	margin: 0 auto;
+}
+.margin-tp-35{
+	margin-top: 35px;
+}
+.padding-all{
+	padding: 35px 30px;
+}
+/* 字体封装结束 */
+/*  1px = 2.18rpx */
+.img-mdd{
+	height: 25px;
+	width: 25px;
+}
+.mdd-allinfo{
+	width: 100%;
+}
+.mdd-item{
+	margin-top: 40px;
+	width: 25%;
+	text-align: center;
+	display: inline-block;
+}
+.dingdan-header{
+	height: 40px;
+}
+.tongji{
+	padding: 21rpx 80rpx;
+}
+.xc{
+	display: inline-block;
+	margin: 40rpx 20px;
+}
+.ji,.goods{
+	width: 220rpx;
+	height: 110rpx;
+	text-align: center;
+}
+.topbg-box{
+	position: relative;
+}
+.banner{
+	width: 100%;
+	top: -40px;
+}
+.photo-box{
+	position: absolute; 
+	bottom: 86px;
+	left: 151px;
+	width: 124rpx;
+	height: 124rpx;
+	overflow: hidden;
+	border-radius: 50%;
+}
+.userinfo{
+	position: absolute;
+	bottom: 60rpx;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+
+
