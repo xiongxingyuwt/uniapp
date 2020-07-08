@@ -4,11 +4,18 @@
     "pages/classfiy/classfiy",
     "pages/goodscar/goodscar",
     "pages/myself/myself",
-    "pages/sonpage/userinfo",
     "pages/sonpage/dfk",
     "pages/sonpage/dqh",
     "pages/sonpage/tkd",
-    "pages/sonpage/wcd"
+    "pages/sonpage/wcd",
+    "pages/sonpage/grzx",
+    "pages/sonpage/cjwt",
+    "pages/sonpage/lxkf",
+    "pages/sonpage/wyjm",
+    "pages/sonpage/tsjy",
+    "pages/sonpage/gywm",
+    "pages/sonpage/allddinfo",
+    "pages/zzqh/zzqh"
   ],
   "subPackages": [],
   "window": {

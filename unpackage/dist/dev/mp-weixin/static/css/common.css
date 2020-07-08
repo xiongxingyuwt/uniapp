@@ -4,6 +4,7 @@ view,image{
 	margin: 0;
 	box-sizing: border-box;
 }
+
 .fl{
 	float: left;
 }
@@ -14,17 +15,16 @@ view,image{
 	clear: both;
 	overflow: auto;
 }
-.myselfcontent{
-	background-color: #f5f5f5;
-}
 .fc9{
 	color: #999;
+	font-size: 32rpx;
 }
 .fc3{
 	color: #333;
+	font-size: 32rpx;
 }
-.fs30{
-	font-size: 30px;
+.fs16{
+	font-size: 32rpx;
 }
 .fs24{
 	font-size: 24rpx;
@@ -38,10 +38,40 @@ view,image{
 	background-color: #fff;
 	margin: 0 auto;
 }
+.margin-bt-20{
+	margin-top: 40rpx;
+}
+.margin-tp-26{
+	margin-top: 26px;
+}
+.margin-tp-20{
+	margin-top: 20rpx;
+}
 .margin-tp-35{
 	margin-top: 35px;
 }
 .padding-all{
-	padding: 35px 30px;
+	padding: 40rpx;
+}
+.padding-rg-20{
+	padding-right: 20rpx;
 }
 /* 字体封装结束 */
+
+/* 公共样式 导航栏 */
+.navlist{
+		background-color:#FFFFFF ;
+	}
+.movitem{
+	display: inline-block;
+	width: 16%;
+	height: 40;
+	text-align: center;
+	line-height: 40px;
+}
+.myselfcontent,.bgx{
+	background-color: #f5f5f5;
+}
+.border-bt-3e{
+	border: 1px solid #EEEEEE;
+}

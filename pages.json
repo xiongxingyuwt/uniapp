@@ -2,7 +2,7 @@
 	"pages": [{
 		"path": "pages/index/index",
 		"style": {
-			"navigationBarTitleText": "快宜点"
+			"navigationBarTitleText": "快宜殿"
 		}
 	}    ,{
             "path" : "pages/classfiy/classfiy",
@@ -23,25 +23,77 @@
 			}
         }
         ,{
-            "path" : "pages/sonpage/userinfo",
-            "style" : {}
-        }
-        ,{
             "path" : "pages/sonpage/dfk",
-            "style" : {}
+            "style" : {
+				"navigationBarTitleText": "订单详情"
+			}
         },
 		{
 		    "path" : "pages/sonpage/dqh",
-		    "style" : {}
+		    "style" : {
+				"navigationBarTitleText": "订单详情"
+			}
 		},
 		{
 		    "path" : "pages/sonpage/tkd",
-		    "style" : {}
+		    "style" : {
+				"navigationBarTitleText": "订单详情"
+			}
 		},
 		{
 		    "path" : "pages/sonpage/wcd",
-		    "style" : {}
+		    "style" : {
+				"navigationBarTitleText": "订单详情"
+			}
 		}
+        ,{
+            "path" : "pages/sonpage/grzx",
+            "style" : {
+				"navigationBarTitleText": "个人中心"
+			}
+        }
+        ,{
+            "path" : "pages/sonpage/cjwt",
+            "style" : {
+				"navigationBarTitleText": "常见问题"
+			}
+        }
+        ,{
+            "path" : "pages/sonpage/lxkf",
+            "style" : {
+				"navigationBarTitleText": "联系客服"
+			}
+        }
+        ,{
+            "path" : "pages/sonpage/wyjm",
+            "style" : {
+				"navigationBarTitleText": "加盟"
+			}
+        }
+        ,{
+            "path" : "pages/sonpage/tsjy",
+            "style" : {
+				"navigationBarTitleText": "建议"
+			}
+        }
+        ,{
+            "path" : "pages/sonpage/gywm",
+            "style" : {
+				"navigationBarTitleText": "关于我们"
+			}
+        }
+        ,{
+            "path" : "pages/sonpage/allddinfo",
+            "style" : {
+				"navigationBarTitleText": "我的订单"
+			}
+        }
+        ,{
+            "path" : "pages/zzqh/zzqh",
+            "style" : {
+				"navigationBarTitleText": "自助取货"
+			}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

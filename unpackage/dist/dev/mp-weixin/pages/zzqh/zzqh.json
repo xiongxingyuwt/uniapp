@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "自助取货",
+  "usingComponents": {
+    "uni-list": "/components/uni-list/uni-list",
+    "uni-list-item": "/components/uni-list-item/uni-list-item"
+  }
+}

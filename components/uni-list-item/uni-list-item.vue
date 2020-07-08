@@ -228,7 +228,7 @@
 	}
 
 	.uni-list-item__content-title {
-		font-size: 28rpx;
+		font-size: 32rpx;
 		color: #3b4144;
 		overflow: hidden;
 	}
@@ -264,7 +264,8 @@
 	}
 
 	.uni-list-item__extra-text {
-		color: #999;
 		font-size: 24rpx;
+		color: #999;
 	}
+	
 </style>
